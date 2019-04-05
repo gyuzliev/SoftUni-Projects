@@ -92,12 +92,9 @@ input[type=number], input[type=text], select {
       result = x + " " + "лв. = " + (x * 1.95583).toFixed(2) + " " + selected;
       document.getElementById("result").value = result;
   } else if (selected === "USD") {
-      result = x + " " + "лв. = " + (x * 1.74332).toFixed(2)  + " " + selected;
+      result = x + " " + "лв. = " + (x * 1.75).toFixed(2)  + " " + selected;
       document.getElementById("result").value = result;
-  } else if (selected === "GBP") {
-      result = x + " " + "лв. = " + (x * 2.22920).toFixed(2)  + " " + selected;
-      document.getElementById("result").value = result;
-  }
+  } 
 }
   </script>
 
